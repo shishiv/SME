@@ -1,0 +1,293 @@
+================================================================================
+                 ÍNDICE RÁPIDO - PROCESSOS DE COMPRAS
+              Prefeitura Municipal de Fronteira/MG
+================================================================================
+
+ACESSO RÁPIDO AOS 4 PROCESSOS PRINCIPAIS:
+
+1. AUXÍLIO FINANCEIRO - PÓS GRADUAÇÃO
+   ├─ Lei: 1.428/2009
+   ├─ Valor: R$ 379,50 (1/4 do salário mínimo)
+   ├─ Projeto: 2038 | Ficha: 376
+   ├─ Etapas: 14
+   ├─ Localização: GUIA_PROCESSOS_COMPRAS.md (linha ~290)
+   └─ Aba Excel: "1. AUXÍLIO FINANCEIRO"
+
+2. EMPENHO DE GÁS
+   ├─ Pregão: 40/2025 | Licitação: 0032586
+   ├─ Fornecedor: Código 6609
+   ├─ Unidades: 10 (4 creches + 1 pré-escola + 5 escolas)
+   ├─ Etapas: 31
+   ├─ Localização: GUIA_PROCESSOS_COMPRAS.md (linha ~480)
+   └─ Aba Excel: "2. EMPENHO DE GÁS"
+
+3. PRESTAÇÃO DE SERVIÇO TEBAS
+   ├─ Fornecedor: TEBAS (Código 20605)
+   ├─ Valor: R$ 3.300,00
+   ├─ Retenção IR: 4,8% (R$ 158,40)
+   ├─ Contrato: N° 221
+   ├─ Etapas: 17
+   ├─ Localização: GUIA_PROCESSOS_COMPRAS.md (linha ~785)
+   └─ Aba Excel: "3. PRESTAÇÃO TEBAS"
+
+4. DESPESA DE VIAGEM - DIÁRIAS
+   ├─ Leis: 1.818/2018 e 1.897/2019
+   ├─ Projeto: 2034 | Ficha: 340
+   ├─ Etapas: 14 (adiantamento) ou 14 (reembolso)
+   ├─ Localização: GUIA_PROCESSOS_COMPRAS.md (linha ~850)
+   └─ Aba Excel: "4. DESPESA DE VIAGEM"
+
+================================================================================
+                        CONFIGURAÇÕES DO SISTEMA
+================================================================================
+
+CNPJ PREFEITURA: 18.449.140/0001-07
+
+RESPONSÁVEL PRINCIPAL:
+├─ Nome: Carla Peixoto
+├─ Código: 4318
+└─ Função: Assinatura de empenhos e autorizações
+
+BANCO DEPOSITÁRIO:
+├─ Nome: Banco do Brasil
+├─ Código: 001
+├─ Agência: 0422-7
+├─ Conta Corrente: 101126-X
+└─ Tipo: Depósito ou Transferência
+
+PADRÕES ORÇAMENTÁRIOS:
+├─ Fonte de Recurso Padrão: 1500
+├─ Centro de Custo (Materiais): 0000
+├─ Centro de Custo (Aux/Diárias): 1001
+└─ Unidade Padrão: 002 - Secretaria da Educação
+
+DOTAÇÕES (PROJETOS):
+├─ Projeto 2034 (Diárias) | Ficha 340 | Subelemento: Diária de demais Servidores
+├─ Projeto 2038 (Auxílios) | Ficha 376 | Subelemento: 3390180000
+├─ Projeto 2044 (Escolas) | Ficha 402
+├─ Projeto 2049 (Creches) | Ficha 460
+└─ Projeto 2050 (Pré-Escolas) | Ficha 478
+
+================================================================================
+                    UNIDADES ESCOLARES MAPEADAS
+================================================================================
+
+CRECHES (Projeto 2049 | Ficha 460):
+├─ CMEI Santo Antonio
+├─ CMEI Dona Belinha (Av. Liberdade, 1480 - Vila Reis)
+├─ CMEI Dona Mençora (Rua Campo Florido, 390 - Jardim Angelo Passuelo)
+└─ CMEI Dona Alice (Rua José Miguel Miziara, 241 - Centro)
+
+PRÉ-ESCOLAS (Projeto 2050 | Ficha 478):
+└─ EMEI Maísa Ferreira Passuelo Vasconcelos (Av Brasil, 220 - Vila Residencial de Furnas)
+
+ESCOLAS (Projeto 2044 | Ficha 402):
+├─ EM Marechal Castelo Branco (Rua Godofredo Antonio da Costa, 238)
+├─ PEM Turma da Mônica (Rua Higino Florencio de Souza, 430 - Vila Residencial de Furnas)
+├─ EM José Maria Bastos Garcia (Av Abdo Jauide Feres, 370 - Centro)
+└─ EM Poliana Ziza Ferreira (Av Aurelio Luis Mistieri, 370 - Centro)
+
+================================================================================
+                      FLUXO PADRÃO DE EMPENHO
+================================================================================
+
+PASSO 1: Acessar Movimentação/Processos de Compra
+PASSO 2: Incluir dados básicos (data, responsável, unidade)
+PASSO 3: Preencher Finalidade/Histórico
+PASSO 4: Incluir itens (códigos de despesa)
+PASSO 5: Confirmação inicial (OK > OK > FECHAR)
+PASSO 6: Aprovação (acessar pelo nome)
+PASSO 7: Preencher Dotação (projeto, ficha, fonte, CO, objeto)
+PASSO 8: Controle Interno (OK > SIM - se necessário)
+PASSO 9: Empenho (Empenhar > SIM > desconto)
+PASSO 10: Retenção/Desconto (se necessário)
+PASSO 11: Impressão (documentos necessários)
+PASSO 12: Assinatura (CARLA PEIXOTO)
+PASSO 13: Protocolo e Entrega à Contabilidade
+PASSO 14: Liquidação/Pagamento (se necessário)
+
+================================================================================
+                    CÓDIGOS E REFERÊNCIAS IMPORTANTES
+================================================================================
+
+ITENS DE DESPESA - VIAGEM:
+├─ 170010019: Diária Viagem Simples
+└─ 170010007: Diária de Viagem
+
+ITEM DE DESPESA - AUXÍLIO:
+└─ 20025000101: Auxílio Financeiro (R$ 379,50)
+
+CONTA TRADUTOR (Retenção):
+└─ 17: Tradutor padrão para registros de retenção
+
+NATUREZAS DE RETENÇÃO:
+├─ 17010: Retenção padrão
+└─ 17099: Natureza Rendimento para TEBAS
+
+FORNECEDORES IDENTIFICADOS:
+├─ 6609: Fornecedor de Gás
+├─ 8468: Francisca Sonia de Figueiredo Neves (Retenção IR 0,24%)
+└─ 20605: TEBAS (Retenção IR 4,8%)
+
+CÓDIGOS DE PAGAMENTO:
+├─ 9: À Vista
+└─ 12: Padrão para funcionários
+
+================================================================================
+                        LEGISLAÇÃO APLICÁVEL
+================================================================================
+
+Lei 1.428/2009
+├─ Objetivo: Auxílio financeiro para formação e aperfeiçoamento
+├─ Beneficiários: Profissionais de Educação Básica
+└─ Valor: Até 1/4 do salário mínimo
+
+Lei 1.818/2018
+├─ Objetivo: Regulamenta despesas com viagem
+└─ Referência: Diárias para viagens
+
+Lei 1.897/2019
+├─ Objetivo: Complementa disposições sobre diárias
+└─ Referência: Despesas com alimentação e transporte
+
+Pregão 40/2025
+├─ Objetivo: Aquisição de gás GLP
+├─ Licitação: 0032586
+└─ Fornecedor Vencedor: Código 6609
+
+================================================================================
+                    CHECKLIST - ANTES DE EMPENHAR
+================================================================================
+
+VERIFICAÇÃO GERAL:
+  □ Verificar data de empenho conforme grupo/departamento
+  □ Confirmar disponibilidade orçamentária (projeto e ficha)
+  □ Validar código de despesa (item)
+  □ Confirmar se há retenção necessária
+  □ Preparar documentação anexada (prospecto, nota, etc)
+
+DADOS A VALIDAR:
+  □ Beneficiário/Fornecedor correto
+  □ Valor correto
+  □ Data da competência
+  □ Centro de custo correto (0000 ou 1001)
+  □ Fonte de recurso (1500)
+
+ANTES DA ASSINATURA:
+  □ Imprimir todos documentos necessários
+  □ Revisar histórico/finalidade
+  □ Validar dados orçamentários
+  □ NÃO BATER CARIMBO antes de entregar para CARLA
+
+APÓS ASSINATURA:
+  □ Bater carimbos necessários
+  □ Protocolar
+  □ Entregar à Contabilidade com documentação completa
+
+================================================================================
+                    CONTATOS E OBSERVAÇÕES IMPORTANTES
+================================================================================
+
+RESPONSÁVEL PRINCIPAL:
+  Carla Peixoto (Código 4318) - Assinatura
+
+UNIDADE:
+  Secretaria da Educação (002.01.05.01)
+
+BANCO:
+  Banco do Brasil 001 | AG 0422-7 | CC 101126-X
+
+RETENÇÃO DE IR:
+  ├─ Fornecedor OPTANTE: Não aplicar
+  ├─ Fornecedor NÃO OPTANTE: Aplicar conforme percentual
+  └─ Usar Conta Tradutor 17 para registro
+
+PARA GÁS:
+  ├─ Especificar tamanho (13kg ou 45kg)
+  ├─ Indicar unidade beneficiária
+  └─ Mencionar período estimado
+
+PARA VIAGEM:
+  ├─ Anexar prospecto do evento
+  ├─ Verificar tabela de valores (Faixa II)
+  ├─ Requerimento Anexo II assinado
+  └─ Para reembolso: comprovantes de despesa
+
+PARA VIAGEM (REEMBOLSO):
+  ├─ Comprovantes de alimentação
+  ├─ Comprovantes de transporte
+  └─ Comprovantes de hospedagem
+
+================================================================================
+                        LOCALIZAÇÃO DOS ARQUIVOS
+================================================================================
+
+ARQUIVOS DISPONÍVEIS:
+
+1. PROCESSOS_COMPRAS_DETALHADO.xlsx
+   ├─ Formato: Planilha Excel com múltiplas abas
+   ├─ Tamanho: 15.4 KB
+   ├─ Conteúdo: Resumo + 4 processos com passo-a-passo
+   └─ Uso: Referência visual detalhada
+
+2. GUIA_PROCESSOS_COMPRAS.md
+   ├─ Formato: Documento Markdown
+   ├─ Tamanho: 15.8 KB
+   ├─ Conteúdo: Guia completo com explicações
+   └─ Uso: Treinamento e referência
+
+3. INDICE_RAPIDO_PROCESSOS.txt (ESTE ARQUIVO)
+   ├─ Formato: Texto puro
+   ├─ Tamanho: ~10 KB
+   ├─ Conteúdo: Índice e referência rápida
+   └─ Uso: Consulta rápida de informações
+
+LOCALIZAÇÃO:
+  /home/user/SME/PROCESSOS_COMPRAS_DETALHADO.xlsx
+  /home/user/SME/GUIA_PROCESSOS_COMPRAS.md
+  /home/user/SME/INDICE_RAPIDO_PROCESSOS.txt
+
+================================================================================
+                          GUIA DE USO RÁPIDO
+================================================================================
+
+PARA CONSULTAR RÁPIDO:
+  → Usar INDICE_RAPIDO_PROCESSOS.txt (este arquivo)
+
+PARA DETALHES ESPECÍFICOS:
+  → Ver GUIA_PROCESSOS_COMPRAS.md
+  → Procurar pela seção desejada (índice no início)
+
+PARA PREENCHER NA PRÁTICA:
+  → Usar PROCESSOS_COMPRAS_DETALHADO.xlsx
+  → Seguir passo-a-passo da aba correspondente
+
+PARA TREINAMENTO:
+  → Ler GUIA_PROCESSOS_COMPRAS.md completamente
+  → Depois consultar PROCESSOS_COMPRAS_DETALHADO.xlsx
+  → Usar INDICE_RAPIDO_PROCESSOS.txt como referência
+
+================================================================================
+                            STATUS DO PROJETO
+================================================================================
+
+DOCUMENTAÇÃO CRIADA EM: 14 de Novembro de 2025
+
+TOTAL DE ETAPAS DOCUMENTADAS: 76 passos
+├─ Auxílio Financeiro: 14 etapas
+├─ Empenho de Gás: 31 etapas
+├─ Prestação TEBAS: 17 etapas
+└─ Despesa Viagem: 14 etapas
+
+PROCESSOS COBERTOS: 4/4 (100%)
+UNIDADES IDENTIFICADAS: 10 unidades escolares
+LEGISLAÇÃO MAPEADA: 4 leis/decretos
+FORNECEDORES MAPEADOS: 3+ fornecedores
+
+GIT STATUS: ✓ Enviado para remote
+BRANCH: claude/explore-codebase-docs-01DHVZN28Rg44cMVW6uN2WaL
+COMMIT: cc242a9
+
+================================================================================
+FIM DO ÍNDICE RÁPIDO
+================================================================================
